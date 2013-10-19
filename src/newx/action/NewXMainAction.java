@@ -16,6 +16,7 @@ public class NewXMainAction implements INewXAction {
 	private static final Logger log = Logger.getLogger(NewXMainAction.class);
 	
 	public NewXActionForward execute(NewXActionMapping mapping, HttpServletRequest request, HttpServletResponse response) {
+//      iifdf
 //		ISecureUser secUser = (ISecureUser) request.getSession(true).getAttribute("secureuser");
 //        if (secUser == null) {
 //        	log.debug("NO LOGIN!"); 
