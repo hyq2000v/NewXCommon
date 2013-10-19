@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mappings>
+    <action path="MainAction">
+        <forward name="test1"   path="/test1.jsp" />
+        <forward name="test2"   path="/test2.jsp" />
+    </action>
+</mappings>

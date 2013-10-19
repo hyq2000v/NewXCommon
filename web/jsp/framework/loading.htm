@@ -1,0 +1,56 @@
+ <SCRIPT>
+ <!--
+ focus();
+ self.resizeTo(parent.document.body.scrollWidth,parent.document.body.scrollHeight);
+ self.moveTo(-3,-3);
+ -->
+ </SCRIPT>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+ <style type="text/css">
+ td,form,select,input,textarea,body  {font-family: 宋体;font-color:#000000;font-size: 12px;line-height:150%;letter-spacing:2px}
+ a:link { font-size: 9pt; text-decoration: none; color: #666666}
+ a:visited {  font-size:9pt; text-decoration: none; color: #666666}
+ a:hover {  text-decoration: none; font-size: 9pt; color: #666666}
+ a:active {  font-size: 9px; text-decoration: none; color: #666666}
+ </style>
+</head>
+<body  style='overflow:hidden;overflow-y:hidden'>
+<br><br>
+ <div align=center>
+ <table height=70% valign=middle align=center>
+ <tr>
+ <td align="center" disabled>
+ <!--  Displaytext-->
+ <div align="center">正在进入</div>
+ <p></p>
+ <font class=fontbig>页面读取中，请等待......<br>
+ </font>
+ <p></p><p></p>
+ <style><!--.proccess{border:1px solid;width:8;height:8;background:#ffffff;margin:3}--></style>
+ <p></p><p></p>
+ <div align="center">
+ <form method=post name=proccess>
+ <script language=javascript>
+ for(i=0;i<30;i++)document.write("<input class=proccess>")
+ </script>
+ </form>
+ </div></td></tr></table>
+ <div align="center">
+ <script language=JavaScript><!--
+ var p=0,j=0;
+ var c=new Array("lightskyblue","white")
+ setInterval('proccess();',100)
+ function proccess(){
+ document.forms.proccess.elements[p].style.background=c[j];
+ p+=1;
+ if(p==30){p=0;j=1-j;}}
+ --></script>
+ </div>
+ </div>
+</body>
+</html>

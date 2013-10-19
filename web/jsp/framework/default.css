@@ -1,0 +1,906 @@
+/****************************************************************/
+/********		标准的css结构		*****************/
+/********	2003-03-31日之后的产品采用该css结构	   ******/
+/****************************************************************/
+
+table.clsTableList {
+		width:100%;
+	background:#FFFFFF;
+	BORDER-RIGHT: #6E7593 1px solid;
+	BORDER-TOP: #6E7593 1px solid;
+	BORDER-LEFT: #6E7593 1px solid;
+	BORDER-BOTTOM: #6E7593 1px solid;
+}
+/***********************公共样式*********************************/
+BODY{
+	scrollbar-face-color: #DEE3E7;
+	scrollbar-highlight-color: #D1D7DC;
+	scrollbar-shadow-color: #98AAB1;
+	scrollbar-3dlight-color: #ffffff;
+	scrollbar-arrow-color: #006699;
+	scrollbar-track-color: #EFEFEF;
+	scrollbar-darkshadow-color: #EFEFEF;
+	margin-left:0px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	overflow-x:auto;
+	overflow-y:auto;
+	font-size:12px;
+	font-family:宋体;
+	text-align: center;
+	background-image:url("../../images/main_bg.gif");
+}
+
+A {
+	COLOR: #000099; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: none
+}
+.A {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BACKGROUND-IMAGE: url(http://gfx1.hotmail.com/bgcolor.gif); BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; HEIGHT: 20px; TEXT-DECORATION: none
+}
+.B {
+	BORDER-RIGHT: #8d8d8d 1px solid; BORDER-TOP: #8d8d8d 1px solid; BACKGROUND-IMAGE: url(http://gfx1.hotmail.com/bgcolor.gif); BORDER-LEFT: #8d8d8d 1px solid; COLOR: #8d8d8d; BORDER-BOTTOM: #8d8d8d 1px solid; HEIGHT: 20px; TEXT-DECORATION: none
+}
+.C {
+	PADDING-LEFT: 2px
+}
+.D {
+	FONT-SIZE: 13.5pt; COLOR: #ffffff
+}
+.E {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #ffffff
+}
+.E:hover {
+	TEXT-DECORATION: none
+}
+.F {
+	FONT-WEIGHT: normal; COLOR: #ffffff
+}
+.G {
+	COLOR: #ffffff
+}
+.H2 {
+	COLOR: #800000
+}
+.I {
+	FONT-WEIGHT: normal; COLOR: #800000
+}
+.J {
+	COLOR: #000000
+}
+.K {
+	FONT-WEIGHT: normal; COLOR: #000000
+}
+.L {
+	FONT-WEIGHT: normal; FONT-SIZE: 13.5pt; COLOR: #000000
+}
+.M {
+	FONT-WEIGHT: normal; FONT-SIZE: 13.5pt; COLOR: #ffffff
+}
+.N {
+	BACKGROUND-IMAGE: url("../../images/bgcolor.gif"); HEIGHT: 24px
+}
+.O TD {
+	WHITE-SPACE: nowrap; HEIGHT: 20px
+}
+.O A {
+	COLOR: #000000; TEXT-DECORATION: none! important
+}
+.P {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; CURSOR: hand
+}
+.Q {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; CURSOR: hand; COLOR: #ffffff; BACKGROUND-COLOR: #4791c5
+}
+.Q A {
+	COLOR: #ffffff
+}
+.R {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; COLOR: #8d8d8d
+}
+.S {
+	BORDER-RIGHT: #336699 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #336699 1px solid; PADDING-LEFT: 3px; BORDER-LEFT: #336699 1px solid; COLOR: #8d8d8d; BORDER-BOTTOM: #336699 1px solid; BACKGROUND-COLOR: #e9f2f8
+}
+.T {
+	BORDER-RIGHT: #336699 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #336699 1px solid; PADDING-LEFT: 3px; BORDER-LEFT: #336699 1px solid; CURSOR: hand; BORDER-BOTTOM: #336699 1px solid; BACKGROUND-COLOR: #e9f2f8
+}
+.U {
+	BORDER-RIGHT: #4791c5 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #4791c5 1px solid; PADDING-LEFT: 1px; Z-INDEX: 100; LEFT: -200px; VISIBILITY: hidden; PADDING-BOTTOM: 1px; OVERFLOW: visible; BORDER-LEFT: #4791c5 1px solid; CURSOR: hand; PADDING-TOP: 1px; BORDER-BOTTOM: #4791c5 1px solid; WHITE-SPACE: nowrap; POSITION: absolute; TOP: 0px; BACKGROUND-COLOR: #e9f2f8; LAYER-BACKGROUND-COLOR: #e9f2f8
+}
+.V {
+	PADDING-RIGHT: 0px; BORDER-TOP: #4791c5 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 1px
+}
+.W {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+.W A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.X {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; BACKGROUND-COLOR: #ffffff
+}
+.X A {
+	COLOR: #000000; TEXT-DECORATION: none! important
+}
+.y {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 1px; COLOR: #8d8d8d; PADDING-TOP: 1px
+}
+.Z {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 1px; COLOR: #8d8d8d; PADDING-TOP: 1px; BACKGROUND-COLOR: #ffffff
+}
+.AA {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.BB {
+	FONT-WEIGHT: normal
+}
+.CC {
+	FONT-WEIGHT: normal; COLOR: #336699
+}
+.DD {
+	COLOR: #000099
+}
+.EE {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-BOTTOM: #ffffff 1px solid; BORDER-COLLAPSE: collapse; EMPTY-CELLS: show
+}
+.EE TD {
+	PADDING-RIGHT: 1px; BORDER-TOP: #c1cdd8 1px solid; PADDING-LEFT: 1px; HEIGHT: 23px
+}
+.FF {
+	COLOR: #10659e
+}
+TR.H {
+	BACKGROUND-COLOR: #c1cdd8
+}
+.GG {
+	BORDER-RIGHT: #96965e 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #96965e 1px solid; MARGIN-TOP: 12px; PADDING-LEFT: 5px; MARGIN-BOTTOM: 12px; PADDING-BOTTOM: 5px; BORDER-LEFT: #96965e 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #96965e 1px solid; BACKGROUND-COLOR: #ffffcc
+}
+.HH {
+	FONT-WEIGHT: normal; COLOR: #e9f2f8
+}
+.II {
+	COLOR: #800000; HEIGHT: 1px
+}
+TR.HL {
+	CURSOR: hand; BACKGROUND-COLOR: #e9f2f8
+}
+TR.SL {
+	BACKGROUND-COLOR: #c1cdd8
+}
+.JJ {
+	BORDER-RIGHT: #a0c6e5 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #a0c6e5 1px solid; OVERFLOW-Y: auto; PADDING-LEFT: 4px; OVERFLOW-X: hidden; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; BORDER-LEFT: #a0c6e5 1px solid; WIDTH: 170px; PADDING-TOP: 4px; BORDER-BOTTOM: #a0c6e5 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.RTE {
+	FONT-SIZE: 9pt; FONT-FAMILY: 宋体,MS SONG,SimSun,tahoma,sans-serif
+}
+.KK {
+	MARGIN-LEFT: 5px; WIDTH: 15px; HEIGHT: 12px
+}
+.LL {
+	PADDING-LEFT: 1px
+}
+.MM {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN-TOP: 1px; VERTICAL-ALIGN: middle; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.NN {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; Z-INDEX: 98; LEFT: 0px; VISIBILITY: hidden; BORDER-LEFT: medium none; WIDTH: 0px; BORDER-BOTTOM: medium none; POSITION: absolute; TOP: 0px; HEIGHT: 0px
+}
+.OO {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN: 0px; BORDER-LEFT: 0px; WIDTH: 100%; BORDER-BOTTOM: 0px; cell-spacing: 0px
+}
+
+.TABLE{
+	width:100%;
+}
+.TR{
+}
+
+TH {
+	FONT-SIZE: 9pt; FONT-FAMILY: "宋体"
+}
+TD {
+	FONT-SIZE: 9pt; FONT-FAMILY: "宋体"
+}
+
+
+INPUT.EngTextInput {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-SIZE: 12px; IME-MODE: inactive; BORDER-LEFT: black 1px solid; COLOR: #000000; BORDER-BOTTOM: black 1px solid; FONT-FAMILY: "宋体"; HEIGHT: 18px
+}
+INPUT.TextInput {
+    BORDER-RIGHT: #4587C4 0px solid;
+    BORDER-TOP: #4587C4 0px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #4587C4 0px solid;
+    COLOR: #0000A0;
+    BORDER-BOTTOM: #6C6D86 1px solid;
+    FONT-FAMILY: Arial, 宋体;
+}
+
+INPUT.BtnInput {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-SIZE: 12px; BORDER-LEFT: black 1px solid; COLOR: #000000; BORDER-BOTTOM: black 1px solid; FONT-FAMILY: "宋体"
+}
+INPUT.Number {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: black 1px solid; PADDING-LEFT: 0px; FONT-SIZE: 9pt; PADDING-BOTTOM: 0px; BORDER-LEFT: black 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: black 1px solid; FONT-FAMILY: "宋体"; HEIGHT: 18px; TEXT-ALIGN: right
+}
+INPUT.fileobject {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-SIZE: 12px; BORDER-LEFT: black 1px solid; COLOR: #000000; BORDER-BOTTOM: black 1px solid; FONT-FAMILY: "宋体"
+}
+
+a:link
+{font-size:9pt;color:#000000;text-decoration:none;}
+a:visited
+{font-size:9pt;color:gray;text-decoration:none;}
+a:active
+{font-size:9pt;color:#000000;text-decoration:none;}
+a:hover
+{font-size:9pt;color:#ff0000;text-decoration:none;}
+
+/*通用body样式*/
+.bodyWithHTC
+{
+	scrollbar-face-color: #DEE3E7;
+	scrollbar-highlight-color: #D1D7DC;
+	scrollbar-shadow-color: #98AAB1;
+	scrollbar-3dlight-color: #ffffff;
+	scrollbar-arrow-color: #006699;
+	scrollbar-track-color: #EFEFEF;
+	scrollbar-darkshadow-color: #EFEFEF;
+	margin-left:0px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	overflow-x:auto;
+	overflow-y:auto;	
+	background-image:url("../../images/main_bg.gif");
+	font-size:12px;
+	font-family:宋体;
+	text-align: center;
+	behavior:url(/wffz/library/htc/body01c.htc);
+}
+
+/*导航栏的body*/
+.naviBody {
+	scrollbar-face-color: #DEE3E7;
+	scrollbar-highlight-color: #D1D7DC;
+	scrollbar-shadow-color: #98AAB1;
+	scrollbar-3dlight-color: #ffffff;
+	scrollbar-arrow-color: #006699;
+	scrollbar-track-color: #EFEFEF;
+	scrollbar-darkshadow-color: #EFEFEF;
+	margin-left:0px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	overflow-x:auto;
+	overflow-y:auto;
+	font-size:12px;
+	font-family:宋体;
+	text-align: center;
+	background-image:url("../../images/navi_bg_0.jpg");
+	background-repeat: no-repeat;
+	background-position: center bottom; 
+}
+
+/*导航栏table*/
+navitabl{font-size:12px;font-family:宋体;}
+
+
+/*弹出窗口的body样式*/
+.dialogbody{
+	SCROLLBAR-FACE-COLOR: #d8e2e7;
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff;
+	SCROLLBAR-SHADOW-COLOR: #d8e2e7;
+	SCROLLBAR-3DLIGHT-COLOR: #96aabd;
+	SCROLLBAR-ARROW-COLOR: #606d79;
+	SCROLLBAR-TRACK-COLOR: #c2cacf;
+	SCROLLBAR-DARKSHADOW-COLOR: #96aabd;
+	border-bottom-style :groove;
+	border-top-style:groove;
+	border-left-style :groove;
+	border-right-style :groove;
+	margin-left:0px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	background-color:#c0c0c0;
+	font-size:12px;
+	font-family:宋体;
+	text-align: center;
+
+	/*behavior:url(/wffz/library/htc/body01c.htc);*/
+
+}
+
+/*对于弹出窗口需要关闭的body样式*/
+.dialogbody_result{
+	SCROLLBAR-FACE-COLOR: #d8e2e7;
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff;
+	SCROLLBAR-SHADOW-COLOR: #d8e2e7;
+	SCROLLBAR-3DLIGHT-COLOR: #96aabd;
+	SCROLLBAR-ARROW-COLOR: #606d79;
+	SCROLLBAR-TRACK-COLOR: #c2cacf;
+	SCROLLBAR-DARKSHADOW-COLOR: #96aabd;
+	border-bottom-style :groove;
+	border-top-style:groove;
+	border-left-style :groove;
+	border-right-style :groove;
+	margin-left:0;
+	background-color:#c0c0c0;
+	font-size:12px;
+	font-family:宋体;
+	text-align: center;
+
+	/*behavior:url(/wffz/library/htc/body01c.htc);*/
+	behavior:url(/wffz/library/htc/windowclose.htc);
+}
+/*mcmi中的table样式，即原来的t0
+.dialogtable{
+	font-size:12px;
+	font-family:宋体;
+	text-align: center;
+}
+
+/*案件侦查，破案，结案等界面的子表div的样式*/
+.childtablediv{
+	overflow:scroll;height:70;width:100%;border-width:1px;
+	border-top-style:inset;
+	border-left-style :inset;
+	border-bottom-style :inset;
+	border-right-style :inset;
+	}
+/*child table样式*/
+.table_in_childtablediv{
+	width:100%;	font-size:9pt;background-color:#e2e2e2;
+}
+
+.virlink	{cursor:hand;}
+.handmouse{cursor:hand;}
+
+.commonTextInput
+{
+    BORDER-RIGHT: #cccccc 1px solid;
+    BORDER-TOP: #4587C4 0px solid;
+    FONT-SIZE: 9pt;  height:16px;  
+    BORDER-LEFT: #4587C4 0px solid;
+    COLOR: #000000;
+    BORDER-BOTTOM: #999999 1px solid;
+		/*BORDER-RIGHT: #808080 1px solid;
+	BORDER-TOP: #808080 1px solid; 
+	BORDER-LEFT: #808080 1px solid; 
+	BORDER-BOTTOM: #808080 1px solid; */
+    FONT-SIZE: 9pt;	
+    FONT-FAMILY: Arial, 宋体;
+	behavior:url(/wffz/library/htc/validation.htc);
+}
+
+.commonTextInput_chldtb
+{
+    BORDER-RIGHT: #4093CE 1px solid;
+    BORDER-TOP: #4093CE 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #4093CE 1px solid;
+    COLOR: darkblue;
+    BORDER-BOTTOM: #4093CE 1px solid;
+    FONT-FAMILY: Arial, 宋体;
+	behavior:url(/wffz/library/htc/validation.htc);
+}
+
+.commonTextArea
+{
+    BORDER-RIGHT: #6C6D86 1px solid;
+    BORDER-TOP: #6C6D86 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #6C6D86 1px solid;
+    COLOR: #0000A0;
+    BORDER-BOTTOM: #6C6D86 1px solid;
+    FONT-FAMILY: Arial, 宋体;
+	behavior:url(/wffz/library/htc/validation.htc);
+}
+.readonlyTextInput
+{
+    BORDER-RIGHT: #4587C4 0px solid;
+    BORDER-TOP: #4587C4 0px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #4587C4 0px solid;
+    COLOR: #808080;
+    BORDER-BOTTOM: #A9A9A9 1px solid;
+    FONT-FAMILY: Arial, 宋体;
+    
+
+}
+
+.readonlyTextArea{
+	BORDER-RIGHT: #A9A9A9 1px solid;
+    BORDER-TOP: #A9A9A9 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #A9A9A9 1px solid;
+    COLOR: #808080;
+    BORDER-BOTTOM: #A9A9A9 1px solid;
+    FONT-FAMILY: Arial, 宋体;
+}
+
+.datetime
+{
+    BORDER-RIGHT: #4587C4 1px solid;
+    BORDER-TOP: #4587C4 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #4587C4 1px solid;
+    COLOR: darkblue;
+    BORDER-BOTTOM: #6C6D86 1px solid;
+    FONT-FAMILY: Arial, 宋体;
+    behavior:url(/wffz/library/htc/datetime.htc);
+}
+
+
+.yearInput{
+	BORDER-RIGHT: #4587C4 0px solid;
+    BORDER-TOP: #4587C4 0px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #4587C4 0px solid;
+    COLOR: darkblue;
+    BORDER-BOTTOM: #6C6D86 1px solid;
+    FONT-FAMILY: Arial, 宋体;
+}
+.monthInput{
+	BORDER-RIGHT: #4587C4 0px solid;
+    BORDER-TOP: #4587C4 0px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #4587C4 0px solid;
+    COLOR: darkblue;
+    BORDER-BOTTOM: #6C6D86 1px solid;
+    FONT-FAMILY: Arial, 宋体;
+}
+.dayInput_date{
+	BORDER-RIGHT: #4587C4 0px solid;
+    BORDER-TOP: #4587C4 0px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #4587C4 0px solid;
+    COLOR: darkblue;
+    BORDER-BOTTOM: #6C6D86 1px solid;
+    FONT-FAMILY: Arial, 宋体;
+}
+
+.dayInput_datetime{
+	BORDER-RIGHT: #4587C4 0px solid;
+    BORDER-TOP: #4587C4 0px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #4587C4 0px solid;
+    COLOR: darkblue;
+    BORDER-BOTTOM: #6C6D86 1px solid;
+    FONT-FAMILY: Arial, 宋体;
+}
+
+.hourInput{
+	BORDER-RIGHT: #4587C4 0px solid;
+    BORDER-TOP: #4587C4 0px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #4587C4 0px solid;
+    COLOR: darkblue;
+    BORDER-BOTTOM: #6C6D86 1px solid;
+    FONT-FAMILY: Arial, 宋体;
+}
+
+.minuteInput{
+	BORDER-RIGHT: #4587C4 0px solid;
+    BORDER-TOP: #4587C4 0px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #4587C4 0px solid;
+    COLOR: darkblue;
+    BORDER-BOTTOM: #6C6D86 1px solid;
+    FONT-FAMILY: Arial, 宋体;
+}
+
+
+.delimInput{
+	BORDER-RIGHT: #4587C4 0px solid;
+    BORDER-TOP: #4587C4 0px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #4587C4 0px solid;
+    COLOR: darkblue;
+    BORDER-BOTTOM: #6C6D86 1px solid;
+    FONT-FAMILY: Arial, 宋体;
+}
+
+/*********************************************************************/
+/*****************************简表页面样式****************************/
+/* 列表基表样式,基表list_basetable1嵌套在list_basetable0中*/
+.list_basetable0{
+	width:99%; 
+}
+
+.list_basetable1{
+	width:100%; /*background-color:#EEF1F7;*/
+}
+
+/*查询条件table*/
+.list_condition_table {
+	width:100%; 
+	background-color:#EEF1F7;
+	BORDER-RIGHT: #D4DBEB 1px solid;
+	BORDER-TOP: #D4DBEB 1px solid;
+	BORDER-LEFT: #D4DBEB 1px solid;
+	BORDER-BOTTOM: #D4DBEB 1px solid;
+}
+
+/*列表页面标题*/
+.list_title {
+
+	width:100%;font-size:9pt;background-image: url(../../images/list_title_bg1.gif);height:28;
+}
+/*查询条件*/
+.list_condition_tr{
+
+}
+
+.list_condition_td_title {
+	BORDER-RIGHT: #ccc 1px solid;
+	BORDER-BOTTOM: #ccc 1px solid;
+	BORDER-TOP: #fff 1px solid;
+	BORDER-LEFT: #fff 1px solid;
+	text-align: right;font-size:9pt;padding-top:5px;height:20px;
+}
+
+.list_condition_td_input {
+	font-size:9pt;
+	BORDER-RIGHT: #ccc 1px solid;
+	BORDER-BOTTOM: #ccc 1px solid;
+	BORDER-TOP: #fff 1px solid;
+	BORDER-LEFT: #fff 1px solid;
+}
+
+/*列表表单样式，*/
+.list_table {
+	BORDER-RIGHT: #ADB2C6 1px solid;
+	BORDER-TOP: #ADB2C6 1px solid;
+	BORDER-LEFT: #ADB2C6 1px solid;
+	BORDER-BOTTOM: #ADB2C6 1px solid;
+	width:100%;font-size:9pt;background-color:#ADB2C6;behavior:url(library/htc/setlisttableprop.htc);
+}
+
+/*简表分页信息样式*/
+.list_table_pageSplitInfo{font-size: 9pt; text-align:center;background-color:#F1F1F1;}
+
+/*列表标题样式，原版本bTrHead*/
+.list_table_thead_tr_title {
+	background-color:#FFFFFF;
+}
+
+.list_table_thead_td_title{
+	font-size: 9pt; text-align:center; background-image: url(../../images/list_head_bg.gif);height:22;
+}
+.list_table_tbody_tr{
+	font-size: 9pt; text-align: center;  background-color: #FFFFFF;height:18;
+}
+.list_table_tbody_tr1{
+	font-size: 9pt; text-align: center;  background-color: #F7F7F7;height:18;
+}
+.list_table_tbody_td {
+	FONT-SIZE: 12px;  FONT-FAMILY: "Times New Roman", "宋体"
+}
+/**********************************************************************/
+
+
+
+/***************************************************************/
+/***************************录入表单**************************/
+/*最外层的table样式*/
+.tBase{width:99%;border-width:0;font-size:9pt;}
+
+/*标题table样式*/
+.tTitle{
+	width:100%;
+}
+/*大标题，加粗==========================*/
+.dTitle{
+	height:28;font-size:14px;font-weight:bold;text-align: center;
+	background-image:url(../../images/main_title1.gif);
+}
+
+/*表单下面的按钮栏的样式===============*/
+.tButton{align:center}
+
+/*相关连结的table样式*/
+.relative_links{
+	width:80;background-color:#D8D8D0;
+}
+
+.button {  font-size: 9pt;background-color: #C3DBFC; border: #5683BE; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; text-align: center; padding-top: 2px}
+.savebutton {  font-size: 9pt;background-color: #C3DBFC; border: #5683BE; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; text-align: center; padding-top: 2px}
+.cancelbutton {  font-size: 9pt;background-color: #C3DBFC; border: #5683BE; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; text-align: center; padding-top: 2px}
+
+
+/*录入表单的大table样式=========================================*/
+.edit_table {
+	width:100%;	
+	borderColorLight:#808080;
+	borderColorDark:#FFFFFF;	
+}
+/*.edit_table td{background:#FFFFFF}*/
+/*behavior:url(/wffz/library/htc/settableprop.htc);*/
+
+/*表格table每行的样式，用浅色线条间隔每行=========================*/
+.edit_table_tr {
+	width:100%;
+	BORDER-BOTTOM: #e5e5e5 1px solid;
+}
+
+/*录入表单的td左边标题样式，有底色==========================bbbb*/
+.edit_table_td_title0 {
+	text-align:left;
+	background:#CBCBCB;
+	background-color: #DAF6FF;	
+	background-image:url(../../images/businessmenu_bg0.gif);
+	font-size:9pt;
+	font-weight: bold;
+	page-break-before: left;
+}
+
+/*录入表单的td左边标题样式，有底色==========================*/
+.edit_table_td_title01 {
+	text-align:center;
+	background:#CBCBCB;
+	background-color: #DAF6FF;
+	width:80px;
+	font-size:9pt;
+	font-weight: bold;
+	page-break-before: left;
+}
+
+/*录入表单的td左边标题样式，底色 added by wzp===========================*/
+.edit_table_td_input_ffff {
+	text-align:left;
+	font-size:9pt;
+	background-color:#E6E6E6; /*added by wzp*/
+}
+
+/*录入表单的td左边标题样式，无底色===========================*/
+.edit_table_td_title {
+	text-align:right;
+	font-size:9pt; /*background-color:#EEF1F7;*/	
+	background-color:#EEF1F7;
+	 /*background-image:url("../../images/main_bg.gif");background-color:#F0F0F0added by wzp*/
+}
+/*新增，文字靠右==========================================*/
+.edit_table_right {
+	text-align:right;
+	font-size:9pt;
+}
+
+/*录入表单时，在某些情况下属于必录项，例如在逃人员的在逃必录信息*/
+.edit_table_td_must2_title {
+	text-align:right;
+	font-size:9pt;
+	color:#FF00FF;
+
+}
+/*录入表单的td标题部分样式,同原来的mychk*/
+.edit_table_td_input {
+    FONT-SIZE: 9pt;  
+    COLOR:#000000;   
+    FONT-FAMILY: Arial, 宋体; /*background-color:#EEF1F7;*/	
+ /*background-color:#FFFFFF;added by wzp*/
+	behavior:url(/wffz/library/htc/validation.htc);
+}
+/* 用于子表内逗号分割的数据的显示*/
+.edit_table_td_display {
+	font-size:9pt;
+
+}
+
+/*录入表单的必录项左边总标题，有底色==================================*/
+.edit_table_td_must_title0{
+	text-align:center;background:#eeeeee;width:80px;
+	color:red;font-size:9pt; /*background-color:#EEF1F7;*//*added by wzp*/
+
+}
+/*录入表单的必录项标题,无底色=======================================*/
+.edit_table_td_must_title {
+	text-align:right;
+	background-color:#EEF1F7;
+	color:red;font-size:9pt; /*background-color:#EEF1F7;*//*added by wzp*/
+
+}
+
+.edit_table_td_false {
+	color:#000066;font-size:9pt;
+	
+
+}
+/*******************************************************************/
+
+
+/****************************************************************/
+/*************************查询表单******************************/
+.query_table {
+	width:100%;background:#FFFFFF;
+	BORDER-RIGHT: #6E7593 1px solid;
+	BORDER-TOP: #6E7593 1px solid;
+	BORDER-LEFT: #6E7593 1px solid;
+	BORDER-BOTTOM: #6E7593 1px solid;
+}
+
+/*表格table每行的样式，用浅色线条间隔每行=========================*/
+.query_table_tr {
+	width:100%;
+	BORDER-BOTTOM: #e5e5e5 1px solid;
+}
+
+/*查询表单的td左边标题样式，有底色==========================*/
+.query_table_td_title0 {
+	text-align:center;background:#eeeeee;width:80px;
+	font-size:9pt;
+}
+
+/*查询表单的td左边标题样式，无底色===========================*/
+.query_table_td_title {
+	font-size:9pt;color:#696969;text-align:right;
+}
+
+
+.query_table_td_input {
+	font-size:9pt;text-align:left
+}
+
+.query_table_td_display {
+	font-size:9pt;text-align:left
+}
+
+/*新增，文字靠右==========================================*/
+.query_table_right {
+	text-align:right;
+	font-size:9pt;
+}
+
+/*录入表单的必录项左边总标题，有底色==================================*/
+.query_table_td_must_title0{
+	text-align:center;background:#eeeeee;width:80px;
+	color:red;font-size:9pt;
+
+}
+/*录入表单的必录项标题,无底色=======================================*/
+.query_table_td_must_title {
+	text-align:right;
+	color:red;font-size:9pt;
+
+}
+/*录入表单时，在某些情况下属于必录项，例如在逃人员的在逃必录信息*/
+.query_table_td_must2_title {
+	text-align:right;
+	font-size:9pt;
+	color:#FF00FF;
+
+}
+.query_table_td_false {
+	color:#000066;font-size:9pt;
+	
+}
+
+
+/********************************************************************/
+
+
+/*********************************************************************/
+/************************案件总揽*************************************/
+/* 对应案件总览页面 分页面大标题aTitle、行头aTrHead、一般行aTr、行中第一列aTdOne、一般列aTd */
+.aTitle {    font-size: 12pt;
+   color:#000000;
+   text-align: center;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   border: #6BAEEF;
+   border-style: solid;
+   border-top-width: 2px;
+   border-right-width: 2px;
+   border-bottom-width: 2px;
+   border-left-width: 2px;
+   background-color:#D7E7F9;}
+.aTrHead{  font-size:11pt;
+  color:#ffffff;
+  text-align:center;
+  background-color:#6BAEEF;
+  padding-top:2px;
+  padding-bottom:2px;}
+.aTr{font-size:9pt;color:#000000;text-align:center;background-color:#D7E7F9;padding-top:2px;padding-bottom:2px;}
+.aTdOne{font-size:9pt;color:#ffffff;text-align:center;background-color:#006699;padding-top:2px;padding-bottom:2px;}
+.aTd{font-size:9pt;color:#000000;text-align:center;background-color:#EEEEEE;padding-top:2px;padding-bottom:2px;}
+/*********************************************************************************/
+
+
+/**************************************************************/
+/**********************杂项**********************************/
+.acls{
+	overflow:scroll;
+	height:400;
+	width:100%;
+	border-width:1px;
+	border-top-style:inset;
+	border-left-style :inset;
+	border-bottom-style :inset;
+	border-right-style :inset;
+	behavior:url(/wffz/library/htc/acl.htc);
+}
+.deptacls{
+	overflow:scroll;
+	height:400;
+	width:100%;
+	border-width:1px;
+	border-top-style:inset;
+	border-left-style :inset;
+	border-bottom-style :inset;
+	border-right-style :inset;
+	behavior:url(/wffz/library/htc/deptacl.htc);
+}
+.buildDept{
+	overflow:scroll;
+	height:400;
+	width:100%;
+	border-width:1px;
+	border-top-style:inset;
+	border-left-style :inset;
+	border-bottom-style :inset;
+	border-right-style :inset;
+	behavior:url(/wffz/library/htc/buildDept.htc);
+}
+.initgroupuser{
+	behavior:url(/wffz/library/htc/initgroupuser.htc);
+}
+.addgroupuser{
+	behavior:url(/wffz/library/htc/addgroupuser.htc);
+}
+.deletegroupuser{
+	behavior:url(/wffz/library/htc/deletegroupuser.htc);
+}
+
+.topmenu	{behavior:url(/wffz/library/htc/topmenu.htc);}
+.leftmenu	{behavior:url(/wffz/library/htc/leftmenu3.htc);}
+
+
+.globalinfo	{behavior:url(/wffz/library/htc/globalinfo.htc);}
+.ctlform	{behavior:url(/wffz/library/htc/ctlform.htc);}
+.ctlform_chldtb {behavior:url(/wffz/library/htc/ctlform_chldtb.htc);}
+
+.mcmi		{behavior:url(/wffz/library/htc/mcmi.htc);}
+select.seldd	{behavior:url(/wffz/library/htc/seldd.htc);}
+.draghandle	{font-size:12px;behavior:url(/wffz/library/htc/dragdiv.htc);}
+.handitem	{cursor:hand;behavior:url(/wffz/library/htc/handitem.htc);}
+
+
+
+.treeselect	{
+    BORDER-RIGHT: #4587C4 0px solid;
+    BORDER-TOP: #4587C4 0px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #4587C4 0px solid;
+    COLOR: #0000A0;
+    BORDER-BOTTOM: #6C6D86 1px solid;
+    FONT-FAMILY: Arial, 宋体;
+    behavior:url(/wffz/library/htc/treeselect2.htc);}
+    
+.treeselect_chldtb	{
+    BORDER-RIGHT: #4093CE 1px solid;
+    BORDER-TOP: #4093CE 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #4093CE 1px solid;
+    COLOR: darkblue;
+    BORDER-BOTTOM: #4093CE 1px solid;
+    FONT-FAMILY: Arial, 宋体;
+    behavior:url(/wffz/library/htc/treeselect2.htc);}
+        
+.fireselect	{behavior:url(/wffz/library/htc/fireselect.htc);}
+.fireselect2	{behavior:url(/wffz/library/htc/fireselect2.htc);}
+
+.bottom_1{
+	FONT-SIZE: 12px;color:#5E78BD;padding-top:4px;word-spacing:6px;/*letter-spacing:10pt;*/
+	FONT-FAMILY: Arial, 宋体;
+	height:20px;width:75px;text-align:center;
+	background-image:url("../../images/bottom.gif");
+	background-repeat: no-repeat;
+	background-position: center center; 
+	}
+.bottom_1 a:link {COLOR: #5E78BD;}
+.bottom_1 a:visited{COLOR: #5E78BD;  TEXT-DECORATION: none;}
+.bottom_1 a:active{COLOR: #5E78BD;  TEXT-DECORATION: none;}
+.bottom_1 a:hover{COLOR: #003AA3;  TEXT-DECORATION: none;}
